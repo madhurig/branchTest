@@ -7,6 +7,10 @@ trigger:
 - master
 - releases/*
 
+pr:
+- master
+- releases/*
+
 pool:
   vmImage: 'ubuntu-latest'
 
